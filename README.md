@@ -3,7 +3,7 @@
 ``` bash
 
 # go into app's directory
-$ cd e-government
+$ cd e-service
 
 # install app's dependencies
 $ composer install
@@ -13,7 +13,9 @@ $ npm install
 
 ```
 
-### If you choice to use MySQL
+### Please export the Database to MySQL, The File will be find in e_government.sql
+
+### Setting Connection Database
 
 Copy file ".env.example", and change its name to ".env".
 Then in file ".env" complete this database configuration:
